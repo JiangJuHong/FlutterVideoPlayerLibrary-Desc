@@ -27,7 +27,7 @@ height="300em" style="max-width:100%;display: inline-block;"/>
 
 ## 项目视频
 
-[点我查看(Demo)](https://dev-storage.huic.top/video_player_library/Video/demo.mp4)  
+[点我查看(Demo)](https://dev-storage.huic.top/video_player_library/Video/Demo.mp4)  
 [点我查看(线上项目)](https://dev-storage.huic.top/video_player_library/Video/%E8%B6%B3%E8%B6%A3%E7%A4%BE%E5%8C%BA.mp4)  
 
 ## Demo下载
