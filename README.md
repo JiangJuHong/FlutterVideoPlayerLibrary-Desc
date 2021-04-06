@@ -28,8 +28,8 @@ height="300em" style="max-width:100%;display: inline-block;"/>
 src="https://github.com/JiangJuHong/access-images/blob/master/FlutterVudeoPlayerLibrary/3.png"
 height="300em" style="max-width:100%;display: inline-block;"/>
 
-## 真实项目效果截图
-真实项目截图
+## 真实项目效果
+[点我查看](https://dev-storage.huic.top/video_player_library/Video/%E8%B6%B3%E8%B6%A3%E7%A4%BE%E5%8C%BA.mp4)
 
 ## Demo下载
 由于Demo无法上架，故仅支持Android Demo下载。
