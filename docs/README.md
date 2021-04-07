@@ -10,6 +10,7 @@ video_player_library 是 Flutter 平台的视频播放器库，播放器核心�
 * 功能丰富：支持`多源视频加载`、`窗口/全屏模式`、`清晰度切换`、`倍速切换`、`手势控制`、`横竖屏`、`音量控制`、`亮度控制`、`自定义组件`等功能
 * 持续维护：项目会持续迭代，功能会越来越丰富。如果某个功能存在缺陷，将会在最短的时间内进行修复。
 * 跨平台性：项目支持Android和IOS
+* 插件兼容：支持Flutter 2.0，空安全
 
 ## 项目效果
 <video controls width="200" autoplay src="video/足趣社区.mp4"></video><video controls width="200" autoplay src="video/Demo.mp4"></video>

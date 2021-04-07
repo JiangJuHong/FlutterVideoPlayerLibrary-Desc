@@ -36,12 +36,13 @@
    	library
      	FlutterVideoPlayerLibrary
      		lib
+            library  		
      		pubspec.yaml
      		.metadata
    	pubspec.yaml
    ````
 
-   >  由于版本迭代关系，不同版本FlutterVideoPlayerLibrary内的目录接口可能不同。
+   >  由于版本迭代关系，不同版本FlutterVideoPlayerLibrary内的目录结构可能不同。
 
 4. 当库成功被移动到您的项目当中后，请打开您的项目的 `pubspec.yaml` 文件，更改 `dependencied`部分为
 
