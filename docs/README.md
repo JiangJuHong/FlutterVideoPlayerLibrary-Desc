@@ -1,6 +1,8 @@
 # 什么是 video_player_library
 
-video_player_library 是 Flutter 平台的视频播放器库，播放器核心基于 [video player](https://pub.dev/packages/video_player) 。内置功能丰富，方便您的项目完成快速交付。
+video_player_library 是 Flutter 平台的视频播放器库，播放器核心基于
+[video player](https://pub.dev/packages/video_player)
+。内置功能丰富，方便您的项目完成快速交付。
 
 > 注：部分功能不支持模拟器上运行，实际效果以真机为准。
 
@@ -15,34 +17,42 @@ video_player_library 是 Flutter 平台的视频播放器库，播放器核心�
 * 插件兼容：支持Flutter 2.0，空安全
 
 ## 项目效果
-<video controls width="200" autoplay src="https://dev-storage.huic.top/video_player_library/Video/%E8%B6%B3%E8%B6%A3%E7%A4%BE%E5%8C%BA.mp4"></video><video controls width="200" autoplay src="https://dev-storage.huic.top/video_player_library/Video/Demo.mp4"></video>
+
+<video controls width="200" autoplay
+src="https://dev-storage.huic.top/video_player_library/Video/%E8%B6%B3%E8%B6%A3%E7%A4%BE%E5%8C%BA.mp4"></video><video
+controls width="200" autoplay
+src="https://dev-storage.huic.top/video_player_library/Video/Demo.mp4"></video>
 
 ## Demo下载
+
 > 由于Demo无法上架，故仅支持Android Demo下载。
 
 <img src="images/qrcode.png" width="150px"/>
 
 ## 功能与定价
 
-购买链接: [点击这里](http://wpa.qq.com/msgrd?v=3&uin=690717394&site=qq&menu=yes)   
-联系客服: [点击这里](http://wpa.qq.com/msgrd?v=3&uin=690717394&site=qq&menu=yes)
+购买链接:
+[点击这里](http://wpa.qq.com/msgrd?v=3&uin=690717394&site=qq&menu=yes)  
+联系客服:
+[点击这里](http://wpa.qq.com/msgrd?v=3&uin=690717394&site=qq&menu=yes)
 
-| 功能列表           | 专业版 |
-| :----------------- | :----- |
-| 视频播放           | ✅      |
-| 倍速播放           | ✅      |
-| 窗口模式           | ✅      |
-| 全屏模式           | ✅      |
-| 多清晰度无感切换   | ✅      |
-| 横竖屏切换         | ✅      |
-| 手势控制           | ✅      |
-| 长按快进           | ✅      |
-| 音量控制           | ✅      |
-| 亮度控制           | ✅      |
-| 自定义指示器图标   | ✅      |
-| 自定义加载进度样式 | ✅      |
-| 锁定               | ✅      |
-| 价格               | 288    |
+| 功能列表         | 专业版 |
+|:----------------|:-----|
+| 视频播放         | ✅    |
+| 倍速播放         | ✅    |
+| 窗口模式         | ✅    |
+| 全屏模式         | ✅    |
+| 多清晰度无感切换   | ✅   |
+| 横竖屏切换       | ✅    |
+| 手势控制         | ✅    |
+| 长按快进         | ✅    |
+| 音量控制         | ✅    |
+| 亮度控制         | ✅    |
+| 自定义指示器图标   | ✅   |
+| 自定义加载进度样式 | ✅    |
+| 钩子操作         | ✅    |
+| 锁定            | ✅    |
+| 价格            | 288   |
 
 ## 问答环节
 
@@ -70,11 +80,14 @@ video_player_library 是 Flutter 平台的视频播放器库，播放器核心�
 
 
 ## 版本变更
+
 ### 1.0.1
+
 * 增加钩子，增加权限钩子
 * 权限钩子: 播放源切换、全屏切换
 
 ### 1.0.0
+
 * 全屏/窗口模式
 * 倍速播放
 * 分辨率切换
@@ -83,3 +96,4 @@ video_player_library 是 Flutter 平台的视频播放器库，播放器核心�
 * 自定义进度条
 * 自定义加载动画
 * 空安全
+
