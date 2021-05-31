@@ -4,6 +4,8 @@ video_player_library 是 Flutter 平台的视频播放器库，播放器核心�
 
 > 注：部分功能不支持模拟器上运行，实际效果以真机为准。
 
+[添加 Github Star 不迷路: https://github.com/JiangJuHong/FlutterVideoPlayerLibrary-Desc](https://github.com/JiangJuHong/FlutterVideoPlayerLibrary-Desc)
+
 # 优势
 
 * 快速集成：参考文档两分钟即可接入到你的项目。
