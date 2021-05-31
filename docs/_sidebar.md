@@ -12,7 +12,8 @@
 * 高阶使用
   * [介绍](高阶使用/)
   * [ExtendVideoPlayerCoreManager](高阶使用/ExtendVideoPlayerCoreManager) 
-  * [ExtendVideoPlayerCoreDrawerWindowEntity](高阶使用/ExtendVideoPlayerCoreDrawerWindowEntity) 
+  * [ExtendVideoPlayerCoreHooksManager](高阶使用/ExtendVideoPlayerCoreHooksManager)
+  * [ExtendVideoPlayerCoreDrawerWindowEntity](高阶使用/ExtendVideoPlayerCoreDrawerWindowEntity)
   * [ExtendVideoPlayerCoreTipsEntity](高阶使用/ExtendVideoPlayerCoreTipsEntity) 
   * [ExtendVideoPlayerCoreWindowEntity](高阶使用/ExtendVideoPlayerCoreWindowEntity) 
 * 关于
