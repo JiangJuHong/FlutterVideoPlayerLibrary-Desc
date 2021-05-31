@@ -17,6 +17,8 @@
 
 [ExtendVideoPlayerCoreManager](高阶使用/ExtendVideoPlayerCoreManager) 核心控制器
 
+[ExtendVideoPlayerCoreHooksManager](高阶使用/ExtendVideoPlayerHookManager) 钩子控制器
+
 [ExtendVideoPlayerCoreDrawerWindowEntity](高阶使用/ExtendVideoPlayerCoreDrawerWindowEntity) 抽屉控制器
 
 [ExtendVideoPlayerCoreTipsEntity](高阶使用/ExtendVideoPlayerCoreTipsEntity) 提示控制器
@@ -58,6 +60,10 @@ class VideoPlayerWidgetState extends State<VideoPlayerWidget> {
 获得引用后，你可以分别使用以下代码来获得不同的管理器:
 
 [ExtendVideoPlayerCoreManager](高阶使用/ExtendVideoPlayerCoreManager)
+
+> modelGroup.manager
+
+[ExtendVideoPlayerCoreHooksManager](高阶使用/ExtendVideoPlayerCoreHooksManager)
 
 > modelGroup.manager
 

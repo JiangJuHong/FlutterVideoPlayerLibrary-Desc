@@ -1,4 +1,4 @@
-## ## ExtendVideoPlayerCoreDrawerWindowEntity
+## ExtendVideoPlayerCoreDrawerWindowEntity
 
 `ExtendVideoPlayerCoreDrawerWindowEntity` 是抽屉控制器，用于抽屉内容或抽屉是否显示等
 

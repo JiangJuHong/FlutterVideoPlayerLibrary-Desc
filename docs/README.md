@@ -13,7 +13,7 @@ video_player_library 是 Flutter 平台的视频播放器库，播放器核心�
 * 插件兼容：支持Flutter 2.0，空安全
 
 ## 项目效果
-<video controls width="200" autoplay src="video/足趣社区.mp4"></video><video controls width="200" autoplay src="video/Demo.mp4"></video>
+<video controls width="200" autoplay src="https://dev-storage.huic.top/video_player_library/Video/%E8%B6%B3%E8%B6%A3%E7%A4%BE%E5%8C%BA.mp4"></video><video controls width="200" autoplay src="https://dev-storage.huic.top/video_player_library/Video/Demo.mp4"></video>
 
 ## Demo下载
 > 由于Demo无法上架，故仅支持Android Demo下载。
@@ -66,3 +66,18 @@ video_player_library 是 Flutter 平台的视频播放器库，播放器核心�
 
 > 答：感谢大家的围观，欢迎关注我的[Github](https://github.com/JiangJuHong)账号。
 
+
+## 版本变更
+### 1.0.1
+* 增加钩子，增加权限钩子
+* 权限钩子: 播放源切换、全屏切换
+
+### 1.0.0
+* 全屏/窗口模式
+* 倍速播放
+* 分辨率切换
+* 锁定窗口
+* 自定义标题
+* 自定义进度条
+* 自定义加载动画
+* 空安全
