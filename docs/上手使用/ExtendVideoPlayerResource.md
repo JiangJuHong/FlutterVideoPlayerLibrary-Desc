@@ -11,5 +11,5 @@
 | asset  | String  | 视频Asset地址                                       |      |         | 1.0.0 |
 | file   | Stirng  | 视频文件路径                                        |       |         | 1.0.0 |
 | label  | String  | 文本标签(如果您开启了切换分辨率功能，此属性则代表分辨率名称) |       |        | 1.0.0 |
-| formatHint | VideoFormat | 视频格式，仅当视频为网络URL时有效 | | | 1.1.0 |
+| formatHint | VideoFormat | 视频格式，仅当视频为网络URL时有效 | | | 1.1.1 |
 
