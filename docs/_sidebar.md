@@ -12,9 +12,9 @@
 * 高阶使用
   * [介绍](高阶使用/)
   * [ExtendVideoPlayerCoreModel](高阶使用/ExtendVideoPlayerCoreModel) 
-  * [ExtendVideoPlayerCoreHooksModel](高阶使用/ExtendVideoPlayerCoreHooksModel)
-  * [ExtendVideoPlayerCoreDrawerWindowModel](高阶使用/ExtendVideoPlayerCoreDrawerWindowModel)
-  * [ExtendVideoPlayerCoreTipsModel](高阶使用/ExtendVideoPlayerCoreTipsModel) 
-  * [ExtendVideoPlayerCoreWindowModel](高阶使用/ExtendVideoPlayerCoreWindowModel) 
+  * [ExtendVideoPlayerHooksModel](高阶使用/ExtendVideoPlayerHooksModel)
+  * [ExtendVideoPlayerDrawerWindowModel](高阶使用/ExtendVideoPlayerDrawerWindowModel)
+  * [ExtendVideoPlayerTipsModel](高阶使用/ExtendVideoPlayerTipsModel) 
+  * [ExtendVideoPlayerWindowModel](高阶使用/ExtendVideoPlayerWindowModel) 
 * 关于
   * [关于我们](关于/)

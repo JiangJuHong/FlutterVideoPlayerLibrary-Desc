@@ -4,7 +4,7 @@
 
 ## 下载
 
-如果您已经购买了项目，请使用解压缩工具将`FlutterVideoPlayerLibrary.zip`进行解压缩
+如果您已经购买了项目，请使用``git clone``命令将项目从仓库中下载，建议下载最新稳定版，而不是开发版
 
 ## 安装
 
@@ -36,7 +36,7 @@
    	library
      	FlutterVideoPlayerLibrary
      		lib
-         library  		
+         library
      		pubspec.yaml
      		.metadata
    	pubspec.yaml

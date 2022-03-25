@@ -17,17 +17,17 @@
 
 [ExtendVideoPlayerCoreModel](高阶使用/ExtendVideoPlayerCoreModel) 核心控制器
 
-[ExtendVideoPlayerCoreHooksModel](高阶使用/ExtendVideoPlayerHookModel) 钩子控制器
+[ExtendVideoPlayerHooksModel](高阶使用/ExtendVideoPlayerHookModel) 钩子控制器
 
-[ExtendVideoPlayerCoreDrawerWindowModel](高阶使用/ExtendVideoPlayerCoreDrawerWindowModel) 抽屉控制器
+[ExtendVideoPlayerDrawerWindowModel](高阶使用/ExtendVideoPlayerDrawerWindowModel) 抽屉控制器
 
-[ExtendVideoPlayerCoreTipsModel](高阶使用/ExtendVideoPlayerCoreTipsModel) 提示控制器
+[ExtendVideoPlayerTipsModel](高阶使用/ExtendVideoPlayerTipsModel) 提示控制器
 
-[ExtendVideoPlayerCoreWindowModel](高阶使用/ExtendVideoPlayerCoreWindowModel) 窗口控制器
+[ExtendVideoPlayerWindowModel](高阶使用/ExtendVideoPlayerWindowModel) 窗口控制器
 
 ### 获得控制器
 
-为了防止控制器太多不利于维护，因此我们通过`ExtendVideoPlayerCoreModelGroup`来对控制器进行集中管理，只要您获得了`ExtendVideoPlayerCoreModelGroup`的引用，那么就能获得所有控制器。您可以通过以下案例来获得`ExtendVideoPlayerCoreModelGroup`:
+为了防止控制器太多不利于维护，因此我们通过`ExtendVideoPlayerModelGroup`来对控制器进行集中管理，只要您获得了`ExtendVideoPlayerModelGroup`的引用，那么就能获得所有控制器。您可以通过以下案例来获得`ExtendVideoPlayerModelGroup`:
 
 ````dart
 class VideoPlayerWidgetState extends State<VideoPlayerWidget> {
@@ -35,7 +35,7 @@ class VideoPlayerWidgetState extends State<VideoPlayerWidget> {
   final GlobalKey<ExtendVideoPlayerState> _extendVideoPlayerKey = GlobalKey();
 
   void _getModelGroup(){
-    ExtendVideoPlayerCoreModelGroup modelGroup = _extendVideoPlayerKey.currentState.modelGroup;
+    ExtendVideoPlayerModelGroup modelGroup = _extendVideoPlayerKey.currentState.modelGroup;
   }
   
   @override
@@ -55,7 +55,7 @@ class VideoPlayerWidgetState extends State<VideoPlayerWidget> {
 
 1. `GlobalKey<ExtendVideoPlayerState> _extendVideoPlayerKey = GlobalKey()` 定义全局Key，方便获取状态对象
 2. `key: this._extendVideoPlayerKey`将全局Key引用传递给视频播放器
-3. `ExtendVideoPlayerCoreModelGroup modelGroup = _extendVideoPlayerKey.currentState.modelGroup`通过全局Key获得`ExtendVideoPlayerCoreModelGroup`的引用
+3. `ExtendVideoPlayerModelGroup modelGroup = _extendVideoPlayerKey.currentState.modelGroup`通过全局Key获得`ExtendVideoPlayerModelGroup`的引用
 
 获得引用后，你可以分别使用以下代码来获得不同的管理器:
 
@@ -63,19 +63,19 @@ class VideoPlayerWidgetState extends State<VideoPlayerWidget> {
 
 > modelGroup.manager
 
-[ExtendVideoPlayerCoreHooksModel](高阶使用/ExtendVideoPlayerCoreHooksModel)
+[ExtendVideoPlayerHooksModel](高阶使用/ExtendVideoPlayerHooksModel)
 
 > modelGroup.hooksManager
 
-[ExtendVideoPlayerCoreDrawerWindowModel](高阶使用/ExtendVideoPlayerCoreDrawerWindowModel) 
+[ExtendVideoPlayerDrawerWindowModel](高阶使用/ExtendVideoPlayerDrawerWindowModel) 
 
 > modelGroup.drawerModel
 
-[ExtendVideoPlayerCoreTipsModel](高阶使用/ExtendVideoPlayerCoreTipsModel) 
+[ExtendVideoPlayerTipsModel](高阶使用/ExtendVideoPlayerTipsModel) 
 
 > modelGroup.tipsModel
 
-[ExtendVideoPlayerCoreWindowModel](高阶使用/ExtendVideoPlayerCoreWindowModel) 
+[ExtendVideoPlayerWindowModel](高阶使用/ExtendVideoPlayerWindowModel) 
 
 > modelGroup.windowModel
 
