@@ -11,10 +11,10 @@
   * [ExtendVideoPlayerUIParam](上手使用/ExtendVideoPlayerUIParam)
 * 高阶使用
   * [介绍](高阶使用/)
-  * [ExtendVideoPlayerCoreManager](高阶使用/ExtendVideoPlayerCoreManager) 
-  * [ExtendVideoPlayerCoreHooksManager](高阶使用/ExtendVideoPlayerCoreHooksManager)
-  * [ExtendVideoPlayerCoreDrawerWindowEntity](高阶使用/ExtendVideoPlayerCoreDrawerWindowEntity)
-  * [ExtendVideoPlayerCoreTipsEntity](高阶使用/ExtendVideoPlayerCoreTipsEntity) 
-  * [ExtendVideoPlayerCoreWindowEntity](高阶使用/ExtendVideoPlayerCoreWindowEntity) 
+  * [ExtendVideoPlayerCoreModel](高阶使用/ExtendVideoPlayerCoreModel) 
+  * [ExtendVideoPlayerCoreHooksModel](高阶使用/ExtendVideoPlayerCoreHooksModel)
+  * [ExtendVideoPlayerCoreDrawerWindowModel](高阶使用/ExtendVideoPlayerCoreDrawerWindowModel)
+  * [ExtendVideoPlayerCoreTipsModel](高阶使用/ExtendVideoPlayerCoreTipsModel) 
+  * [ExtendVideoPlayerCoreWindowModel](高阶使用/ExtendVideoPlayerCoreWindowModel) 
 * 关于
   * [关于我们](关于/)

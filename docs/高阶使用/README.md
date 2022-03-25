@@ -15,15 +15,15 @@
 
 此库拥有如下几种控制器：
 
-[ExtendVideoPlayerCoreManager](高阶使用/ExtendVideoPlayerCoreManager) 核心控制器
+[ExtendVideoPlayerCoreModel](高阶使用/ExtendVideoPlayerCoreModel) 核心控制器
 
-[ExtendVideoPlayerCoreHooksManager](高阶使用/ExtendVideoPlayerHookManager) 钩子控制器
+[ExtendVideoPlayerCoreHooksModel](高阶使用/ExtendVideoPlayerHookModel) 钩子控制器
 
-[ExtendVideoPlayerCoreDrawerWindowEntity](高阶使用/ExtendVideoPlayerCoreDrawerWindowEntity) 抽屉控制器
+[ExtendVideoPlayerCoreDrawerWindowModel](高阶使用/ExtendVideoPlayerCoreDrawerWindowModel) 抽屉控制器
 
-[ExtendVideoPlayerCoreTipsEntity](高阶使用/ExtendVideoPlayerCoreTipsEntity) 提示控制器
+[ExtendVideoPlayerCoreTipsModel](高阶使用/ExtendVideoPlayerCoreTipsModel) 提示控制器
 
-[ExtendVideoPlayerCoreWindowEntity](高阶使用/ExtendVideoPlayerCoreWindowEntity) 窗口控制器
+[ExtendVideoPlayerCoreWindowModel](高阶使用/ExtendVideoPlayerCoreWindowModel) 窗口控制器
 
 ### 获得控制器
 
@@ -59,23 +59,23 @@ class VideoPlayerWidgetState extends State<VideoPlayerWidget> {
 
 获得引用后，你可以分别使用以下代码来获得不同的管理器:
 
-[ExtendVideoPlayerCoreManager](高阶使用/ExtendVideoPlayerCoreManager)
+[ExtendVideoPlayerCoreModel](高阶使用/ExtendVideoPlayerCoreModel)
 
 > modelGroup.manager
 
-[ExtendVideoPlayerCoreHooksManager](高阶使用/ExtendVideoPlayerCoreHooksManager)
+[ExtendVideoPlayerCoreHooksModel](高阶使用/ExtendVideoPlayerCoreHooksModel)
 
-> modelGroup.manager
+> modelGroup.hooksManager
 
-[ExtendVideoPlayerCoreDrawerWindowEntity](高阶使用/ExtendVideoPlayerCoreDrawerWindowEntity) 
+[ExtendVideoPlayerCoreDrawerWindowModel](高阶使用/ExtendVideoPlayerCoreDrawerWindowModel) 
 
 > modelGroup.drawerModel
 
-[ExtendVideoPlayerCoreTipsEntity](高阶使用/ExtendVideoPlayerCoreTipsEntity) 
+[ExtendVideoPlayerCoreTipsModel](高阶使用/ExtendVideoPlayerCoreTipsModel) 
 
 > modelGroup.tipsModel
 
-[ExtendVideoPlayerCoreWindowEntity](高阶使用/ExtendVideoPlayerCoreWindowEntity) 
+[ExtendVideoPlayerCoreWindowModel](高阶使用/ExtendVideoPlayerCoreWindowModel) 
 
 > modelGroup.windowModel
 

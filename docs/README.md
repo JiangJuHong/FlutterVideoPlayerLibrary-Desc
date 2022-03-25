@@ -11,9 +11,9 @@ video_player_library 是 Flutter 平台的视频播放器库，播放器核心�
 # 优势
 
 * 快速集成：参考文档两分钟即可接入到你的项目。
-* 功能丰富：支持`多源视频加载`、`窗口/全屏模式`、`清晰度切换`、`倍速切换`、`手势控制`、`横竖屏`、`音量控制`、`亮度控制`、`自定义组件`等功能
+* 功能丰富：支持`多源视频加载`、`窗口/全屏模式`、`清晰度切换`、`倍速切换`、`手势控制`、`横竖屏`、`音量控制`、`亮度控制`、`自定义组件`、`自定义钩子`等功能
 * 持续维护：项目会持续迭代，功能会越来越丰富。如果某个功能存在缺陷，将会在最短的时间内进行修复。
-* 跨平台性：项目支持Android和IOS
+* 跨平台性：项目支持Android和IOS、Web(Mobile)
 * 插件兼容：支持Flutter 2.0，空安全
 
 ## 项目效果
@@ -80,6 +80,22 @@ src="https://dev-storage.huic.top/video_player_library/Video/Demo.mp4"></video>
 
 
 ## 版本变更
+
+### 1.1.1(Dev)
+
+* 增加: ExtendVideoPlayerResource 支持传递 VideoFormat（仅对network视频有效）
+* 增加: 资源播放失败后将自动切换资源
+* 移除: auto_orientation 组件，使用 SystemChrome.setPreferredOrientations 实现横竖屏切换
+* 调整: 代码结构调整，将 model 从 entitys 里面抽出
+
+### 1.1.0 (2021-09-22)
+
+* 调整: 播放图标大小
+* 增加: ```volumeButtonDisplay``` 属性控制音量按钮是否显示(web默认为true，其它默认为false)。此属性可以控制是否静音
+* 增加: ``fullPlayerButtonDisplay`` 属性控制全屏播放按钮是否显示，(web默认为true，其它默认为false)
+* 增加: web端支持(移动端web，暂不支持pc web)
+* 增加: debug日志输出
+* 修复: 部分时长显示异常问题
 
 ### 1.0.1
 

@@ -36,7 +36,7 @@
    	library
      	FlutterVideoPlayerLibrary
      		lib
-            library  		
+         library  		
      		pubspec.yaml
      		.metadata
    	pubspec.yaml
