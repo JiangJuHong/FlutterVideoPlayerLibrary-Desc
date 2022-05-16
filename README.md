@@ -91,7 +91,7 @@ height="300em" style="max-width:100%;display: inline-block;"/>
 
 
 ## 版本变更
-### 1.1.1(Dev)
+### 1.1.1（2022-05-16）
 
 * 增加: ExtendVideoPlayerResource 支持传递 VideoFormat（仅对network视频有效）
 * 增加: 资源播放失败后将自动切换资源
