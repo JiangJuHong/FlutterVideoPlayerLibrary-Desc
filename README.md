@@ -97,6 +97,11 @@ height="300em" style="max-width:100%;display: inline-block;"/>
 * 增加: 资源播放失败后将自动切换资源
 * 移除: auto_orientation 组件，使用 SystemChrome.setPreferredOrientations 实现横竖屏切换
 * 调整: 代码结构调整，将 model 从 entitys 里面抽出
+* 修复：Android、IOS全屏黑屏的问题
+* 增加：ExtendVideoPlayerCoreModel 增加 ``resetResources`` 方法，支持动态的设置资源
+* 增加：``EventHook`` 事件钩子
+* 修复：切换全屏后，系统成为沉浸式模式不退出
+* 优化：优化播放中缓存
 
 ### 1.1.0 (2021-09-22)
 

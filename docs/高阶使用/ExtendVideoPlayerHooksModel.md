@@ -14,7 +14,6 @@ class CustomPermissionsHook extends PermissionsHook{
   /// 当此方法返回false时，将不允许本次权限，那么就无法进行设置全屏操作
   @override
   bool changeFull(bool full) => false;
-  
 }
 
 class Main{
@@ -39,7 +38,7 @@ class Main{
 
 目前支持的钩子类型:
 
-`PermissionsHook`
+###  PermissionsHook
 
 权限控制钩子，用来对操作进行限制，例如：允许/禁止全屏，允许/禁止切换分辨率。  
 权限控制钩子中，所有方法的返回值均是bool，代表是否允许执行此操作，返回true代表允许，返回false代表不允许。
@@ -49,3 +48,15 @@ class Main{
 | changePlaybackSource | ExtendVideoPlayerResource oldResource: 正在播放的资源<br />ExtendVideoPlayerResource newResource: 目标资源 | 切换播放源时触发    |
 | changeFull           | bool full: 是否是全屏                                                                                    | 切换/取消全屏时触发 |
 
+### EventHook
+
+事件钩子，用来通知用户某事件的发生
+1. 此钩子仅用于通知，并不会阻止某事件的发生，如果想要阻止某事件发生，请使用 [PermissionsHook]
+2. 此钩子仅实现纯通知事件的内容，
+
+| 方法名称              | 参数描述                                                                                                 | 方法描述          | 版本 |
+|:---------------------|:-------------------------------------------------------------------------------------------------------|:----------------|----------------------|
+| resourceLoadComplete | ExtendVideoPlayerResource resource: 加载完成的资源 | 资源加载完成 | v1.1.1 |
+| resourceLoadFailed   | ExtendVideoPlayerResource resource: 加载失败的资源<br />Object error: 错误信息 | 资源加载失败     | v1.1.1 |
+| playerProgress       | ExtendVideoPlayerResource resource: 播放的资源 <br />Duration? position: 当前时间<br />Duration? duration: 总时间 | 播放进度事件     | v1.1.1 |
+| playerEnd            | ExtendVideoPlayerResource resource: 资源对象                 | 资源播放结束事件 | v1.1.1 |
