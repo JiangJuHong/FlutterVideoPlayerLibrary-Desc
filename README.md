@@ -4,7 +4,7 @@ video_player_library 是 Flutter 平台的视频播放器库，播放器核心�
 
 > 注：部分功能不支持模拟器上运行，实际效果以真机为准。
 
-[点击查看使用文档](https://video-player.docs.huic.top)
+[点击查看使用文档](https://github.com/JiangJuHong/FlutterVideoPlayerLibrary-Desc/tree/main/docs)
 
 
 # 优势
@@ -40,7 +40,7 @@ height="300em" style="max-width:100%;display: inline-block;"/>
 
 ## 使用文档
 
-[点击查看使用文档](https://video-player.docs.huic.top)
+[点击查看使用文档](https://github.com/JiangJuHong/FlutterVideoPlayerLibrary-Desc/tree/main/docs)
 
 ## 功能与定价
 
